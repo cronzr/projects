@@ -4,7 +4,6 @@ And if the number of combinations of < number of permutations, then count the nu
 */
 
 #include <stdio.h>
-#include <conio.h>
 #include <ctype.h>
 #include <stdlib.h>
 
@@ -24,7 +23,6 @@ int length (int z)
 
 void main(int K, char *arg[]) { 
   int C,A,R,m,n,i,k,zero,one,allisok,again;
-  clrscr();
   allisok=0; 
   again=0;
   // if there is no parameters then ...
